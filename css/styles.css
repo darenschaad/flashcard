@@ -1,0 +1,21 @@
+#javascript-showing {
+  display:none;
+}
+#modulo-showing {
+  display:none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+
+
+p:hover {
+  text-decoration: underline;
+}
