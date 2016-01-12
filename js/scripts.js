@@ -1,9 +1,7 @@
 $(function() {
-  $("p").click(function() {
-    $("#javascript-showing").show();
-  });
-    $(".clickable").click(function(){
-      $("#javascript-showing").slideToggle();
-      $("#modulo-showing").slideToggle();
-    })
+    $("h4").click(function(){
+      $(this).next().slideToggle();
+      // $("#javascript-showing").slideToggle();
+    });
+
   });
